@@ -10,7 +10,6 @@ body{
     background-color: black ;
 }
 
-
 .banner{
     background-image: linear-gradient(180deg, rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url('../images/banner.png');
     background-position: cover;
@@ -36,10 +35,8 @@ body{
 }
 
 .banner .banner-content .logo img{
-
     margin: 27px auto;
-    vertical-align: middle;
-    
+    vertical-align: middle;    
 }
 
 .banner .banner-content h1{
@@ -51,7 +48,6 @@ body{
     -webkit-text-fill-color: transparent;
     background-clip: text;
     font-weight: 900;
-
 }
 
 .banner .banner-content p{
@@ -67,11 +63,57 @@ body{
     border-image: linear-gradient(180deg, #3BA1CD 0%, #1572B7 100%);
     border-image-slice: 10;
     
-
-    letter-spacing: 0.21em;
+    letter-spacing: 5px;
     color: #31A8DD;
     text-transform: uppercase;
     font-weight: 900;
-    font-size: 0.9rem;
+    font-size: 0.9rem;   
+}
+
+section{
+    margin: 0 auto;
+}
+
+#course-content{
+    width: 800px;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 90px;
+
+}
+
+#course-content h2{
+    color: #33A8DB;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 2rem;
+}
+
+#course-content p{
+    margin-top: 24px;
+    color: white;
+    font-size: 1rem;
     
 }
+
+#course-content .modules-list{
+    color: white;  
+}
+
+#course-content .modules-list .module{
+    width: 535px;
+    margin: 24px auto;
+    background-color: rgba(0, 0, 0, .7);
+    border: 1px solid #33A8DB;
+    border-radius: 100px;
+    padding: 16px 0;
+    background: linear-gradient(0deg, #252525, #252525);
+    box-shadow: -2px 6px 4px 0px #00000066 inset;
+
+}
+
+#course-content .modules-list .module span{
+    color: #33A8DB;
+    
+}
+
