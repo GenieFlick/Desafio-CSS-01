@@ -152,3 +152,29 @@ section{
     margin: 32px auto 90px auto;
     font-size: 1rem;     
 }
+
+footer{
+    text-align: center;
+    height: 170px;
+    background: linear-gradient(180deg, rgba(51, 168, 219, 0) 0%, rgba(51, 168, 219, 0.2) 99.99%, rgba(51, 168, 219, 0.2) 100%);
+    border-top: 1px solid #33A8DB;
+}
+
+footer img{
+    margin: 60px auto 10px auto;
+}
+
+footer img{
+    margin: 60px auto 10px auto;
+}
+
+footer p{
+    font-size: 1rem;
+    margin-bottom: 40px;
+}
+
+footer a{
+    text-decoration: none;
+    color:#33A8DB;
+    font-weight: 700;
+}
