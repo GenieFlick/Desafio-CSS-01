@@ -14,6 +14,13 @@ p{
     color: white;  
 }
 
+h2{
+    color: #33A8DB;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 2rem;
+}
+
 .banner{
     background-image: linear-gradient(180deg, rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url('../images/banner.png');
     background-position: cover;
@@ -84,17 +91,10 @@ section{
     margin-bottom: 90px;
 }
 
-#course-content h2{
-    color: #33A8DB;
-    text-transform: uppercase;
-    letter-spacing: 5px;
-    font-size: 2rem;
-}
 
 #course-content p{
     margin-top: 24px;
-    font-size: 1rem;
-    
+    font-size: 1rem;  
 }
 
 #course-content .modules-list{
@@ -114,7 +114,6 @@ section{
 
 #course-content .modules-list .module span{
     color: #33A8DB;
-    
 }
 
 #transform-world {
@@ -128,10 +127,28 @@ section{
     padding-left: 200px;
   }
 
-  #transform-world p{
+#transform-world p{
     text-transform: lowercase;
     text-shadow: 3px 2px #33A8DB;
     font-size: 2.5rem;
     font-weight: 900;
     max-width: 250px;
   }
+
+#professional-challenges {
+    height: 800px;
+    text-align: center;   
+    padding-top: 90px;
+}
+
+#professional-challenges h2{
+    margin: 0 auto;
+    max-width: 750px;
+    text-align: center;
+}
+
+#professional-challenges p {
+    max-width: 800px;
+    margin: 32px auto 90px auto;
+    font-size: 1rem;     
+}
