@@ -1,5 +1,8 @@
 # Desafio 01: Criando sua primeira Landing Page com HTML e CSS
 
+Esse repositório é a resolução do desafio proposto abaixo, onde precisei recriar uma landing page utilizando HTML e CSS. 
+[Clique aqui](https://ogabrielfonseca.github.io/css-landing-page/) para acessar o resultado final da minha Landing Page criada a partir do desafio!
+
 Bem vindo(a) ao primeiro desafio da Trilha de CSS da DIO! Nela, você vai construir sua primeira Landing Page com HTML e CSS, colocando em prática os fundamentos do CSS,
 as propriedades básicas da linguagem de estilização, além de trabalhar com as unidades de medidas relativas e absolutas que aprendemos ao longo da trilha.
 
